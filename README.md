@@ -20,16 +20,12 @@ pip install anthropic requests
 story_generator/
 ├── src/
 │   ├── domain/
-│   │   ├── __init__.py
 │   │   └── entities.py
 │   ├── application/
-│   │   ├── __init__.py
 │   │   └── story_service.py
 │   ├── infrastructure/
-│   │   ├── __init__.py
 │   │   └── claude_client.py
 │   └── interfaces/
-│       ├── __init__.py
 │       └── console.py
 ├── config.py
 └── main.py
