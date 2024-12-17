@@ -1,12 +1,11 @@
-
-
 ## 📋 Visão Geral
-Sistema gerador de histórias que utiliza IA generativa (Claude) para criar narrativas personalizadas baseadas em respostas do usuário. O sistema faz 5 perguntas e gera uma história única incorporando todas as respostas.
 
+Sistema gerador de histórias que utiliza IA generativa (Claude) para criar narrativas personalizadas baseadas em respostas do usuário. O sistema faz 5 perguntas e gera uma história única incorporando todas as respostas.
 
 ## 🚀 Início Rápido
 
 ### Pré-requisitos
+
 ```bash
 # Python 3.7+
 python --version
@@ -16,6 +15,7 @@ pip install anthropic requests
 ```
 
 ### Estrutura do Projeto
+
 ```
 story_generator/
 ├── src/
@@ -35,24 +35,25 @@ story_generator/
 └── main.py
 ```
 
-
 ### Configuração
 
 1. Clone o repositório
+
 ```bash
-git clone https://github.com/seu-usuario/story_generator.git
+git clone https://github.com/kristiantenfen/pupila-ai.git
 ```
 
 2. Crie um arquivo `config.py` e adicione a chave da API do Claude:
+
 ```python
 CLAUDE_API_KEY = "sua-chave-da-api-do-claude"
 ```
 
 3. Execute o projeto:
+
 ```bash
 python main.py
 ```
-
 
 ## 🔧 Requisitos Técnicos
 
@@ -63,12 +64,13 @@ python main.py
 - Sistema operacional: Windows, Linux ou MacOS
 - IDE ou editor de texto de preferência
 
-
 ### Dependências
+
 ```bash
 pip install anthropic
 pip install requests
 ```
+
 ## 🔐 Segurança e Autenticação
 
 - Token de API do Claude válido e ativo
@@ -81,12 +83,10 @@ pip install requests
 - Respostas do usuário são coletadas e enviadas para a API do Claude
 - História gerada é exibida no console
 
-
 ## 🗃️ Dados
 
 - Não há persistência de dados
 - Todas as respostas são descartadas após a geração da história
-
 
 ## 🌐 Integração com Claude
 
@@ -98,6 +98,7 @@ pip install requests
 - Tempo de resposta esperado < 5 segundos
 
 ## ⚠️ Tratamento de Erros
+
 ```python
 try:
     # Execução do programa
@@ -114,14 +115,12 @@ except Exception as e:
 4. Recebimento e exibição da história gerada
 5. Tratamento de erros e exceções
 
-
 ## 📈 Métricas de Sucesso
 
 - Histórias geradas com sucesso
 - Tempo de resposta médio < 10 segundos
 - Uso adequado do limite de tokens da API do Claude
 - Feedback positivo do usuário
-
 
 ## ⚖️ Limitações Conhecidas
 
@@ -142,7 +141,6 @@ except Exception as e:
 - Sem testes de carga
 - Sem testes de stress
 - Sem testes de segurança
-
 
 ## 🚀 Melhorias Futuras
 
@@ -166,11 +164,11 @@ except Exception as e:
 - Adicionar testes de stress
 - Adicionar testes de segurança
 
-
 ## 📝 Licença
 
 Este projeto é licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
 
 ## 📧 Contato
+
 Seu Nome - kristian.tenfen@gmail.com
 Link do Projeto: https://github.com/kristiantenfen/pupila-ai
